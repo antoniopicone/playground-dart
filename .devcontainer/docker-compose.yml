@@ -4,7 +4,7 @@ services:
     image: antoniopicone/flutter_web
     
     ports:
-      - 8080:8080
+      - 8085:8080
     
     # To avoid running root user, specify user with UID 1000 (wich is devuser or linux default)
     user: "1000"
